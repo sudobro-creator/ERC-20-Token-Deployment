@@ -22,7 +22,7 @@
  };
  
  async function main() {
-    const replace_contractAddress = "0x184eE37F54c03f0F3dfE5F11bB18856d707cD6b0";
+    const replace_contractAddress = "<<Replace_Contract_Address>>";
     const [signer] = await hre.ethers.getSigners();
     const replace_contractFactory = await hre.ethers.getContractFactory("FreeToken");
     const contract = replace_contractFactory.attach(replace_contractAddress);
